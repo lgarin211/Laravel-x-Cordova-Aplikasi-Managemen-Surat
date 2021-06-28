@@ -16,9 +16,9 @@
                     </div>
                     <div class=col-4>
                         <a style="float: right" class="btn btn-primary btn-sm my-4 mr-sm-2"
-                            href="/datasuratkeluar/{{$suratkeluar->filekeluar}}" download="{{$suratkeluar->filekeluar}}"
+                            href="{{url('/')}}/datasuratkeluar/{{$suratkeluar->filekeluar}}" download="{{$suratkeluar->filekeluar}}"
                             role="button"><i class="fas fa-file-download"></i> Download</a>
-                        <a style="float: right" class="btn btn-danger btn-sm my-4 mr-sm-2" href="/suratkeluar/index"
+                        <a style="float: right" class="btn btn-danger btn-sm my-4 mr-sm-2" href="{{url('/')}}/suratkeluar/index"
                             role="button"><i class="fas fa-undo"></i> Kembali</a>
                     </div>
                 </div>

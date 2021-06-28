@@ -33,7 +33,7 @@
                                         </center>
                                     </a>
                                 </div>
-                                <a href="/suratkeluar/{{$suratkeluar->id}}/tampil"
+                                <a href="{{url('/')}}/suratkeluar/{{$suratkeluar->id}}/tampil"
                                     class="small-box-footer bg-success">Lihat Detail File <i
                                         class="fas fa-arrow-circle-right"></i></a>
                             </div>

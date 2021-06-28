@@ -17,7 +17,7 @@
             </ul>
         </div>
         @endif
-        <form action="/suratkeluar/{{$suratkeluar->id}}/update" method="POST" enctype="multipart/form-data">
+        <form action="{{url('/')}}/suratkeluar/{{$suratkeluar->id}}/update" method="POST" enctype="multipart/form-data">
             <h3><i class="nav-icon fas fa-envelope my-1 btn-sm-1"></i> Edit Surat Keluar</h3>
             <hr>
             {{csrf_field()}}
@@ -66,7 +66,7 @@
             </div>
             <hr>
             <button type="submit" class="btn btn-success btn-sm"><i class="fas fa-save"></i> SIMPAN</button>
-            <a class="btn btn-danger btn-sm" href="/suratkeluar/index" role="button"><i class="fas fa-undo"></i>
+            <a class="btn btn-danger btn-sm" href="{{url('/')}}/suratkeluar/index" role="button"><i class="fas fa-undo"></i>
                 BATAL</a>
         </form>
     </div>

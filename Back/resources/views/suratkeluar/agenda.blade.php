@@ -17,7 +17,7 @@
             <span style="float: right">
 {{--                 <a class="btn btn-primary btn-sm my-1 mr-sm-1" href="{{route('suratkeluar.downloadexcel')}}"
                     role="button"><i class="fas fa-file-excel"></i> Download Excel</a> --}}
-                <a class="btn btn-primary btn-sm my-1 mr-sm-1" href="/suratkeluar/agendakeluarcetak_pdf" target="_blank"
+                <a class="btn btn-primary btn-sm my-1 mr-sm-1" href="{{url('/')}}/suratkeluar/agendakeluarcetak_pdf" target="_blank"
                     role="button"><i class="fas fa-print"></i> Cetak</a>
             </span>
             <div class="row table-responsive">
