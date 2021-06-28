@@ -54,11 +54,11 @@
                             <td>{{$klasifikasi->kode}}</td>
                             <td>{{$klasifikasi->uraian}}</td>
                             <td>
-                                <a href="/klasifikasi/{{$klasifikasi->id}}/edit"
+                                <a href="{{url('/')}}/klasifikasi/{{$klasifikasi->id}}/edit"
                                     class="btn btn-primary btn-sm my-1 mr-sm-1"><i
                                         class="nav-icon fas fa-pencil-alt"></i> Edit</a>
                                 @if (auth()->user()->role == 'admin')
-                                <a href="/klasifikasi/{{$klasifikasi->id}}/delete"
+                                <a href="{{url('/')}}/klasifikasi/{{$klasifikasi->id}}/delete"
                                     class="btn btn-danger btn-sm my-1 mr-sm-1"
                                     onclick="return confirm('Hapus Data ?')"><i class="nav-icon fas fa-trash"></i>
                                     Hapus</a>

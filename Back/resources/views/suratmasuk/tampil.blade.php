@@ -16,11 +16,11 @@
                     </div>
                     <div class=col-4>
                         <a style="float: right" class="btn btn-primary btn-sm my-4 mr-sm-2"
-                            href="/datasuratmasuk/{{$suratmasuk->filemasuk}}" 
+                            href="{{url('/')}}/datasuratmasuk/{{$suratmasuk->filemasuk}}"
                             {{-- download="{{$suratmasuk->filemasuk}}" --}}
                             {{-- role="button" --}}
                             ><i class="fas fa-file-download"></i> Download</a>
-                        <a style="float: right" class="btn btn-danger btn-sm my-4 mr-sm-2" href="/suratmasuk/index"
+                        <a style="float: right" class="btn btn-danger btn-sm my-4 mr-sm-2" href="{{url('/')}}/suratmasuk/index"
                             role="button"><i class="fas fa-undo"></i> Kembali</a>
                     </div>
                 </div>

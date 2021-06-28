@@ -17,7 +17,7 @@
             </ul>
         </div>
         @endif
-        <form action="/klasifikasi/{{$klasifikasi->id}}/update" method="POST">
+        <form action="{{url('/')}}/klasifikasi/{{$klasifikasi->id}}/update" method="POST">
             <h3><i class="nav-icon fas fa-layer-group my-1 btn-sm-1"></i> Edit Klasifikasi</h3>
             <hr>
             {{csrf_field()}}
@@ -39,7 +39,7 @@
             </div>
             <hr>
             <button type="submit" class="btn btn-success btn-sm "><i class="fas fa-save"></i> SIMPAN</button>
-            <a class="btn btn-danger btn-sm" href="/klasifikasi/index" role="button"><i class="fas fa-undo"></i>
+            <a class="btn btn-danger btn-sm" href="{{url('/')}}/klasifikasi/index" role="button"><i class="fas fa-undo"></i>
                 BATAL</a>
         </form>
     </div>

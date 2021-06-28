@@ -34,12 +34,12 @@
                                             <img src="{{URL::to('/')}}/datasuratmasuk/{{$suratmasuk->filemasuk}}"
                                                 width="100" height="150"
                                                 alt="File .doc, .docx, atau .pdf tidak dapat ditampilkan, Silahkan klik Lihat Detail File">
-                                            
+
                                             @endif
                                         </center>
                                     </a>
                                 </div>
-                                <a href="/suratmasuk/{{$suratmasuk->id}}/tampil"
+                                <a href="{{url('/')}}/suratmasuk/{{$suratmasuk->id}}/tampil"
                                     class="small-box-footer bg-success">Lihat Detail File <i
                                         class="fas fa-arrow-circle-right"></i></a>
                             </div>
