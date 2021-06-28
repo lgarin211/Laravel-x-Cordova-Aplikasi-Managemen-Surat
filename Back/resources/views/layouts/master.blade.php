@@ -8,15 +8,15 @@
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="/adminlte/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="{{url('/')}}/adminlte/fontawesome-free/css/all.min.css">
     <!-- Ekko Lightbox -->
-    <link rel="stylesheet" href="/adminlte/plugins/ekko-lightbox/ekko-lightbox.css">
+    <link rel="stylesheet" href="{{url('/')}}/adminlte/plugins/ekko-lightbox/ekko-lightbox.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- overlayScrollbars -->
-    <link rel="stylesheet" href="/adminlte/css/adminlte.min.css">
+    <link rel="stylesheet" href="{{url('/')}}/adminlte/css/adminlte.min.css">
     <!-- DataTable -->
-    <link rel="stylesheet" href="/adminlte/plugins/datatables-bs4/css/dataTables.bootstrap4.css">
+    <link rel="stylesheet" href="{{url('/')}}/adminlte/plugins/datatables-bs4/css/dataTables.bootstrap4.css">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
@@ -216,20 +216,20 @@
     <!-- ./wrapper -->
 
     <!-- jQuery -->
-    <script src="/adminlte/jquery/jquery.min.js"></script>
+    <script src="{{url('/')}}/adminlte/jquery/jquery.min.js"></script>
     <!-- Bootstrap 4 -->
-    <script src="/adminlte/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{{url('/')}}/adminlte/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- AdminLTE App -->
-    <script src="/adminlte/js/adminlte.min.js"></script>
+    <script src="{{url('/')}}/adminlte/js/adminlte.min.js"></script>
     <!-- Ekko Lightbox -->
-    <script src="/adminlte/plugins/ekko-lightbox/ekko-lightbox.min.js"></script>
+    <script src="{{url('/')}}/adminlte/plugins/ekko-lightbox/ekko-lightbox.min.js"></script>
     <!-- Filterizr-->
-    <script src="/adminlte/plugins/filterizr/jquery.filterizr.min.js"></script>
+    <script src="{{url('/')}}/adminlte/plugins/filterizr/jquery.filterizr.min.js"></script>
     <!-- Data Table -->
-    <script src="/adminlte/plugins/datatables/jquery.dataTables.js"></script>
-    <script src="/adminlte/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
+    <script src="{{url('/')}}/adminlte/plugins/datatables/jquery.dataTables.js"></script>
+    <script src="{{url('/')}}/adminlte/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
     <!-- AdminLTE for demo purposes -->
-    <script src="/adminlte/js/demo.js"></script>
+    <script src="{{url('/')}}/adminlte/js/demo.js"></script>
     <!-- page script -->
     <script>
         $(function () {

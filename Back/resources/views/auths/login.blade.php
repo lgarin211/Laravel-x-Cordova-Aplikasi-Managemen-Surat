@@ -103,7 +103,7 @@
             {{session('sukses')}}
         </div>
         @endif
-        <img src="/logo.svg" alt="Logo" class="logo">
+        <img src="{{url('/')}}/logo.svg" alt="Logo" class="logo">
         <br>
         <h2 class="font-weight-bold text-center">Aplikasi</h2>
         <h2 class="font-weight-bold text-center">Manajemen Surat</h2>
