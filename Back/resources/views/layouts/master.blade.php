@@ -50,7 +50,7 @@
                             <i class="fas fa-user mr-2"></i> Lihat Profil
                         </a>
                         <div class="dropdown-divider"></div>
-                        <a href="/logout" class="dropdown-item">
+                        <a href="{{url('/')}}/logout" class="dropdown-item">
                             <i class="fas fa-sign-out-alt mr-2"></i> Logout
                         </a>
                     </div>
@@ -76,7 +76,7 @@
                with font-awesome or any other icon font library -->
 
                         <li class="nav-item">
-                            <a href="/dashboard" class="nav-link">
+                            <a href="{{url('/')}}/dashboard" class="nav-link">
                                 <i class="nav-icon fas fa-home"></i>
                                 <p>
                                     Beranda
@@ -93,13 +93,13 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="/suratmasuk/index" class="nav-link">
+                                    <a href="{{url('/')}}/suratmasuk/index" class="nav-link">
                                         <i class="far fa-envelope nav-icon"></i>
                                         <p>Surat Masuk</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="/suratkeluar/index" class="nav-link">
+                                    <a href="{{url('/')}}/suratkeluar/index" class="nav-link">
                                         <i class="far fa-envelope-open nav-icon"></i>
                                         <p>Surat Keluar</p>
                                     </a>
@@ -116,13 +116,13 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="/suratmasuk/agenda" class="nav-link">
+                                    <a href="{{url('/')}}/suratmasuk/agenda" class="nav-link">
                                         <i class="far fa-envelope nav-icon"></i>
                                         <p>Agenda Surat Masuk</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="/suratkeluar/agenda" class="nav-link">
+                                    <a href="{{url('/')}}/suratkeluar/agenda" class="nav-link">
                                         <i class="far fa-envelope-open nav-icon"></i>
                                         <p>Agenda Surat Keluar</p>
                                     </a>
@@ -139,13 +139,13 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="/suratmasuk/galeri" class="nav-link">
+                                    <a href="{{url('/')}}/suratmasuk/galeri" class="nav-link">
                                         <i class="fas fa-sign-in-alt nav-icon"></i>
                                         <p>File Surat Masuk</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="/suratkeluar/galeri" class="nav-link">
+                                    <a href="{{url('/')}}/suratkeluar/galeri" class="nav-link">
                                         <i class="fas fa-sign-out-alt nav-icon"></i>
                                         <p>File Surat Keluar</p>
                                     </a>
@@ -153,7 +153,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="/klasifikasi/index" class="nav-link">
+                            <a href="{{url('/')}}/klasifikasi/index" class="nav-link">
                                 <i class="nav-icon fas fa-layer-group"></i>
                                 <p>
                                     Klasifikasi
