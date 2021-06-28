@@ -26,7 +26,7 @@
                             <div class="icon">
                                 <i class="nav-icon fas fa-envelope-open-text"></i>
                             </div>
-                            <a href="/suratmasuk/index" class="small-box-footer " style="background:#185ADB">Lihat Detail <i
+                            <a href="{{url('/')}}/suratmasuk/index" class="small-box-footer " style="background:#185ADB">Lihat Detail <i
                                     class="fas fa-arrow-circle-right"></i></a>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                             <div class="icon">
                                 <i class="nav-icon fas fa-envelope"></i>
                             </div>
-                            <a href="/suratkeluar/index" class="small-box-footer " style="background:#185ADB">Lihat Detail <i
+                            <a href="{{url('/')}}/suratkeluar/index" class="small-box-footer " style="background:#185ADB">Lihat Detail <i
                                     class="fas fa-arrow-circle-right"></i></a>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                             <div class="icon">
                                 <i class="nav-icon fas fa-layer-group"></i>
                             </div>
-                            <a href="/klasifikasi/index" class="small-box-footer " style="background:#185ADB">Lihat Detail <i
+                            <a href="{{url('/')}}/klasifikasi/index" class="small-box-footer " style="background:#185ADB">Lihat Detail <i
                                     class="fas fa-arrow-circle-right"></i></a>
                         </div>
                     </div>
