@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>sampel</title>
+    <style type="text/css">
+        .vas{display: none;}
+    </style>
+</head>
+<body> 
+    <div id="la">
+    <label id="alamat">harap masukan alamat server</label>
+    <input type="text" name="alamat" id="url">
+    <button id="cari" onclick="muls()">Cari</button>
+</div>
+    <iframe id='fream' class="vas" src="" style="">
+    </iframe>
+<script type="text/javascript">
+    function muls(){
+        let isi=document.getElementById('url').value
+        document.getElementById('la').classList.toggle('vas')
+        document.getElementById('fream').classList.toggle('vas')
+        document.getElementById('fream').src=isi
+        document.getElementById('fream').style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:100%;width:100%;position:absolute;top:0px;left:0px;right:0px;bottom:0px;border:none;"
+    }
+</script>
+
+</body>
+</html>
