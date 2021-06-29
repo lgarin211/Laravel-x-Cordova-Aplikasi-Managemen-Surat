@@ -1,4 +1,3 @@
-
 <?php
 
 return [
@@ -193,6 +192,6 @@ return [
     |
     */
 
-    'same_site' => "none",
+    'same_site' => null,
 
 ];

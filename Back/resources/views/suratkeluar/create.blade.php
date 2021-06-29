@@ -12,7 +12,7 @@
             </ul>
         </div>
         @endif
-        <form action="/suratkeluar/tambah" method="POST" enctype="multipart/form-data">
+        <form action="{{ url('/')}}/suratkeluar/tambah" method="POST" enctype="multipart/form-data">
             <h3><i class="nav-icon fas fa-envelope my-1 btn-sm-1"></i> Tambah Data Surat Keluar</h3>
             <hr>
             {{csrf_field()}}

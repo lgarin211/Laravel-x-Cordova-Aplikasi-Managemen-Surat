@@ -32,7 +32,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '251da547fcda95c4fc24cddf3a9414041bb621d3',
+    'reference' => '153db4a767e8e8701f119b7cf33d305bcbb7f5e1',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -459,7 +459,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '251da547fcda95c4fc24cddf3a9414041bb621d3',
+      'reference' => '153db4a767e8e8701f119b7cf33d305bcbb7f5e1',
     ),
     'laravel/nexmo-notification-channel' => 
     array (
@@ -1502,23 +1502,9 @@ return $installed[0]['root'];
 
 
 
-
 public static function getRawData()
 {
-@trigger_error('getRawData only returns the first dataset loaded, which may not be what you expect. Use getAllRawData() instead which returns all datasets for all autoloaders present in the process.', E_USER_DEPRECATED);
-
 return self::$installed;
-}
-
-
-
-
-
-
-
-public static function getAllRawData()
-{
-return self::getInstalled();
 }
 
 

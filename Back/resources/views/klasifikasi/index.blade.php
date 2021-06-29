@@ -90,7 +90,7 @@
 
                         {!! Form::file('data_klasifikasi.xls') !!} --}}
                         <div class="card-body">
-                            <form action="{{ url('klasifikasi.import') }}" method="POST" name="importform"
+                            <form action="{{ url('/') }}/klasifikasi.import" method="POST" name="importform"
                                 enctype="multipart/form-data">
                                 @csrf
                                 <input type="file" name="data_klasifikasi.xls" class="form-control">
@@ -120,7 +120,7 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <form action="/klasifikasi/tambah" method="POST">
+                        <form action="{{ url('/') }}/klasifikasi/tambah" method="POST">
                             {{csrf_field()}}
                             <div class="row">
                                 <div class="col">
