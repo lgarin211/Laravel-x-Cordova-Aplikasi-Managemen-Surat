@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
 @section('content')
-<section class="content card" style="padding: 10px 10px 10px 10px ">
-    <h3><i class="nav-icon fas fa-warehouse my-1 btn-sm-1"></i> Profil Instansi</h3>
+<section class="content card">
+    <h3 class="bg-success" style="height: 50px; text-align: center; padding-top: 5px;"><i class="nav-icon fas fa-warehouse my-1 btn-sm-1"></i> Profil Instansi</h3>
     <hr>
     @if ($instansi->count() >= 1)
     @foreach ($instansi as $item_ins)

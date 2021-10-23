@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('content')
-<section class="content card" style="padding: 10px 10px 10px 10px ">
+<section class="content card" >
     <div class="box">
         @if(session('sukses'))
         <div class="alert alert-success" role="alert">
@@ -17,14 +17,14 @@
         </div>
         @endif
 
-        <div class="row">
-            <div class="col">
+        <div class="row bg-dark">
+            <div class="col" style="height: 50px; text-align: center; padding-top: 5px;">
                 <h3><i class="nav-icon fas fa-layer-group my-1 btn-sm-1"></i> Klasifikasi Surat</h3>
                 <hr>
             </div>
         </div>
         <div>
-            <div class="col">
+            <div class="col" style="margin-top: 10px;">
                 <button type="button" class="btn btn-sm btn-primary" data-toggle="modal"
                     data-target="#tambahklasifikasi"><i class="fas fa-plus"></i>
                     Tambah Data

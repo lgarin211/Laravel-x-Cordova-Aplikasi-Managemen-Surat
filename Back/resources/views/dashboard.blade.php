@@ -16,6 +16,7 @@
             <div class="card-body">
                 <!-- Small boxes (Stat box) -->
                 <div class="filter-container p-0 row">
+                    @if (auth()->user()->role != 'admin')
                     <div class="col-lg-3 col-6">
                         <!-- small box -->
                         <div class="small-box bg-light">
@@ -45,6 +46,7 @@
                                     class="fas fa-arrow-circle-right"></i></a>
                         </div>
                     </div>
+                    @endif
                     <div class="col-lg-3 col-6">
                         <!-- small box -->
                         <div class="small-box bg-light">

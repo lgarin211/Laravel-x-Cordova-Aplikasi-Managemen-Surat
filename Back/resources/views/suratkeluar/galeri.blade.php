@@ -1,19 +1,19 @@
 @extends('layouts.master')
 @section('content')
-<section class="content card" style="padding: 10px 10px 10px 10px ">
+<section class="content card" style="padding: 0px 10px 10px 10px ">
     <div class="box">
         @if(session('sukses'))
         <div class="alert alert-success" role="alert">
             {{session('sukses')}}
         </div>
         @endif
-        <div class="row">
-            <div class="col">
+        <div class="row " style="background: #ec00e1;">
+            <div class="col" style="height: 50px; text-align: center; padding-top: 5px;">
                 <h3><i class="nav-icon fas fa-images my-1 btn-sm-1"></i> Galeri Surat Keluar</h3>
                 <hr />
             </div>
         </div>
-        <div class="row">
+        <div class="row" style="margin-top: 10px;">
             <div class="card-body">
                 <div>
                     <div class="filter-container p-0 row">

@@ -25,7 +25,7 @@
     <!-- Site wrapper -->
     <div class="wrapper">
         <!-- Navbar -->
-        <nav class="main-header navbar navbar-expand navbar-white navbar-light" style="background: #C0FEFC;">
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light" style="background: #db00f4;;">
             <!-- Left navbar links -->
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -38,7 +38,7 @@
             <ul class="navbar-nav ml-auto">
                 <!-- Messages Dropdown Menu -->
                 <!-- Notifications Dropdown Menu -->
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown bg-light">
                     <a class="dropdown-toggle" data-toggle="dropdown">
                         <i class="fas fa-user mr-2"></i> &nbsp;<span>{{auth()->user()->name}}</span> &nbsp;<i
                             class="icon-submenu lnr lnr-chevron-down"></i>
@@ -60,7 +60,7 @@
         <!-- /.navbar -->
 
         <!-- Main Sidebar Container -->
-        <aside class="main-sidebar sidebar-light-primary elevation-1" style="background: #C0FEFC;">
+        <aside class="main-sidebar sidebar-light-primary elevation-1" style="background:linear-gradient(to top, #db00f4, #ff00ca); ;">
             <!-- Sidebar -->
             <div class="sidebar">
                 <!-- Sidebar user (optional) -->
@@ -193,14 +193,14 @@
         </aside>
 
         <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper" style="background: #77ACF1; padding: 15px 15px 15px 15px ">
+        <div class="content-wrapper" style="background: #2a263d; padding: 15px 15px 15px 15px ">
 
             @yield('content')
 
         </div>
         <!-- /.content-wrapper -->
 
-        <footer class="main-footer" style="background: #C0FEFC;">
+        <footer class="main-footer" style="background: #960080;">
             <div class="float-right d-none d-sm-block">
                 <b>Rekayasa Perangkat Lunak</b>
             </div>

@@ -13,7 +13,7 @@
             margin: 0;
             padding: 0;
             font-family: sans-serif;
-            background: linear-gradient(to right, #185ADB, #5C33F6);
+            background: linear-gradient(to right, #2a263d, #ff00ca);
         }
 
         h1 {
@@ -38,7 +38,7 @@
         .kotak_login {
             border: 0;
             width: 350px;
-            background: white;
+            background: #f400da;
             border-radius: 9px;
             margin: 50px auto;
             padding: 30px 20px;
@@ -63,7 +63,7 @@
         }
 
         .tombol_login {
-            background: #185ADB;
+            background: #2a263d;
             color: white;
             font-size: 11pt;
             width: 100%;
@@ -91,7 +91,7 @@
         }
 
         .tombol_login[type="submit"]:hover {
-            background: #5C33F6;
+            background: #2a2635;
         }
     </style>
 </head>
